@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Bambam103/Netflix-Pipeline-Project.git'
+                git branch: 'master', url: 'https://github.com/Bambam103/Netflix-Pipeline-Project.git'
             }
         }
 
